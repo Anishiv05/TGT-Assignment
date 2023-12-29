@@ -6,3 +6,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "TGT_Assignment"
   )
+
+// https://mvnrepository.com/artifact/org.scalatest/scalatest
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
+
